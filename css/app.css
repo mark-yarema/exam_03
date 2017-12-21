@@ -1,0 +1,239 @@
+.ba-header{
+	background: url(../img/bg-header.png);
+	color:#fefefb;
+	width: 100%;
+	height: 1070px;
+}
+
+#big-title{
+	font-size: 71.97px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 60.035px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	transform: scaleY(1.0035);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#title-desc{
+	font-size: 29.99px;/* Приближение из-за подстановки шрифтов */
+	font-style: italic;
+	text-align: center;
+	transform: scaleY(1.0035);
+	font-family: 'PT Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #fefefb;
+}
+
+a:active{
+	color: #fefefb;
+}
+
+
+.menu-conteiner{
+	margin-right: 5px;
+  	padding-bottom: 10%;
+  	padding-top: 0;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	padding-left: 0;
+  	list-style: none;
+  	font-size: 15px;
+  	display: flex;
+  	justify-content: flex-end;
+  
+}
+
+.menu{
+	display:flex;
+	-webkit-justify-content: flex-end;
+	        justify-content:  flex-end;
+	padding-right: 13%;
+	top: 2%;
+	padding-bottom: 20%;
+}
+
+.menu-iteam{
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 600;
+	line-height: 60.035px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+#logo-img{
+	display: inline-block;
+	position: absolute;
+	padding-left: 15%;
+	top: 4%;
+	padding-bottom: 20%;
+	
+}
+
+#knopka-right{
+	border-width: 1px;
+	border-color:  #7d7a7c;
+	border-style: solid;
+	width: 12.1%;
+	height:  48px;
+	color:  #7d7a7c;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	}
+
+#knopka-right:hover{
+	background:#7d7a7c;
+	color:  #ebebeb;
+}
+
+
+
+.img-left{
+	padding-left: 12%;
+	padding-top: 3%;
+}
+
+.text-right{
+	padding-right: 12%;
+	padding-top: 10%;
+}
+#text{
+color:  #665f60;
+font-size: 20px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+text-align: left;
+
+}
+
+.info-block{
+	 background:#ebebeb;
+}
+
+.ba-footer{
+	background: #9f9acf;
+	width: 100%;
+	height: 185px;
+}
+
+.text-info{
+	padding-top: 5%;
+	padding-left: 15%;
+	color: #ffffff;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: left;
+}
+
+.social-block{
+	margin-right: 5px;
+  	padding-bottom: 10%;
+  	padding-top: 0;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	padding-left: 0;
+  	list-style: none;
+  	font-size: 15px;
+  	display: flex;
+  	justify-content: flex-end;
+  	}
+
+.social-iteam{
+	margin-right: 20px;
+}
+
+.social{
+	padding-top: 5%;
+	padding-right: 15%;
+}
+
+.description{
+	background-color: #ebebeb;
+	width: 100%;
+	height: 799px;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+
+.description-right{
+	background: url(../img/description-right_bg.png) no-repeat;
+	padding-right: 5%;
+}
+.description-left_block-1{
+	background-color:  #dbdbdb;
+	width: 380px;
+	height: 400px;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	align-items: flex-start;
+	padding-top: 10%;
+}
+.description-left_block-2{
+	background-color:  #ebebeb;
+	width: 380px;
+	height: 400px;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	align-items: flex-start;
+	padding-top: 10%;
+}
+
+.description-left_block-3{
+	background-color:  #ebebeb;
+	width: 380px;
+	height: 400px;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	align-items: flex-start;
+	padding-top: 10%;
+	
+}
+.description-left_block-4{
+	background-color:  #dbdbdb;
+	width: 380px;
+	height: 400px;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	align-items: flex-start;
+	padding-top: 10%;
+}
+
+.title_block{
+	color:  #665f60;
+	font-size: 23.99px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: left;
+	transform: scaleY(1.0004);
+	padding-top: 13%;
+	padding-left: 10%;
+	padding-right: 10%
+	/* display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	align-items: flex-start; */
+}
+
+.main_block{
+	color:  #665f60;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-style: italic;
+	text-align: center;
+	padding-top: 17%;
+	padding-left: 10%;
+	padding-right: 10%
+	/* display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	align-items: flex-start; */
+}
